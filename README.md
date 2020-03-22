@@ -75,7 +75,7 @@ versions are confirmed working:
 
 ## Configuration
 
-Defualt settings can be changed by editing script contstants the near the top
+Default settings can be changed by editing script constants the near the top
 of the file. Certain prompts can also be enabled or disabled.
 
 By default icecast server settings are not prompted for so it *must be updated
