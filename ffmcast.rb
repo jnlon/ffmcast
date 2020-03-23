@@ -127,7 +127,7 @@ class Settings
 
     # substitute command options
     ['ffmpeg',
-        '-loglevel', '+warning', '-hide_banner', '-stats',
+        '-loglevel', 'warning', '-hide_banner', '-stats',
         '-probesize', '50M', '-analyzeduration', '100M',
         '-re', '-accurate_seek', '-seek_timestamp', '1', '-ss', @seek_time.to_timestamp,
         '-i', mediainfo.filename, '-g', '50', '-bufsize', '6000k', '-f', 'ogg', '-content_type', 'application/ogg',
