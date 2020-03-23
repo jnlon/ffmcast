@@ -128,7 +128,7 @@ class Settings
     # substitute command options
     ['ffmpeg',
         '-loglevel', 'warning', '-hide_banner', '-stats',
-        '-probesize', '50M', '-analyzeduration', '100M',
+        '-probesize', '9000M', '-analyzeduration', '9000M',
         '-re', '-accurate_seek', '-seek_timestamp', '1', '-ss', @seek_time.to_timestamp,
         '-i', mediainfo.filename, '-g', '50', '-bufsize', '6000k', '-f', 'ogg', '-content_type', 'application/ogg',
         '-map', audio_stream_index, '-codec:a', 'libvorbis', '-b:a', @audio_bitrate, # audio mapping
